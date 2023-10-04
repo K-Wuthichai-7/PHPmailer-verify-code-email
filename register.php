@@ -38,7 +38,7 @@ if (isset($_POST["register"]))
         $mail->Username = 'mcsmailer01@gmail.com';
 
         //SMTP password
-        $mail->Password = 'fycl mush gxpr zwyq';
+        $mail->Password = '';
 
         //Enable TLS encryption;
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
